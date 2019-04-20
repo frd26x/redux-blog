@@ -1,7 +1,8 @@
 import {combineReducers} from 'redux';
+import postReducer from './postReducers'
 
 
 
 export default combineReducers({
-  replaceMe: ()=>10
+  posts: postReducer
 })
